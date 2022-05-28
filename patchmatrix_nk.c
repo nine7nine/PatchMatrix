@@ -24,12 +24,12 @@
 #include <patchmatrix_nk.h>
 
 const struct nk_color grid_line_color = {40, 40, 40, 255};
-const struct nk_color grid_background_color = {30, 30, 30, 255};
-const struct nk_color hilight_color = {200, 100, 0, 255};
-const struct nk_color button_border_color = {100, 100, 100, 255};
-const struct nk_color wire_color = {100, 100, 100, 255};
-const struct nk_color grab_handle_color = {100, 100, 100, 255};
-const struct nk_color toggle_color = {150, 150, 150, 255};
+const struct nk_color grid_background_color = {0, 0, 0, 255};
+const struct nk_color hilight_color = {255, 165, 48, 255};
+const struct nk_color button_border_color = {0, 162, 255, 255};
+const struct nk_color wire_color = {191, 71, 200, 255};
+const struct nk_color grab_handle_color = {191, 71, 255, 255};
+const struct nk_color toggle_color = {151, 255, 71, 255};
 
 static int
 _client_moveable(struct nk_context *ctx, app_t *app, client_t *client,
